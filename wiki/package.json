@@ -1,0 +1,16 @@
+{
+  "name": "alumium-wiki",
+  "version": "0.1.0",
+  "description": "Alumium wiki — public project documentation",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "setup": "node setup-db.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "better-sqlite3": "^9.4.3",
+    "zod": "^3.22.4"
+  }
+}

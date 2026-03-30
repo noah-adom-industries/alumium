@@ -1,0 +1,9 @@
+{
+  "name": "alumium-skill-store",
+  "description": "Alumium Skill Store — discover, rate, and install Claude Code skills",
+  "port": 8790,
+  "health": "http",
+  "start": "node server.js",
+  "cwd": ".",
+  "log": "/tmp/alumium-skill-store.log"
+}

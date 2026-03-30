@@ -1,0 +1,16 @@
+{
+  "name": "alumium",
+  "version": "0.1.0",
+  "description": "Lightweight AI-first skill platform — skill store + project wiki",
+  "type": "module",
+  "workspaces": [
+    "skill-store",
+    "wiki"
+  ],
+  "scripts": {
+    "install:skills": "node install.mjs",
+    "setup:db": "node skill-store/setup-db.js && node wiki/setup-db.js",
+    "start:store": "node skill-store/server.js",
+    "start:wiki": "node wiki/server.js"
+  }
+}

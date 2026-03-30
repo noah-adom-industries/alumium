@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "alumium-store": {
+      "command": "node",
+      "args": ["ALUMIUM_ROOT/skill-store/mcp/server.js"],
+      "env": {
+        "STORE_API": "http://127.0.0.1:8790"
+      }
+    },
+    "alumium-wiki": {
+      "command": "node",
+      "args": ["ALUMIUM_ROOT/wiki/mcp/server.js"],
+      "env": {
+        "WIKI_API": "http://127.0.0.1:8791"
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "alumium-wiki",
+  "description": "Alumium Wiki — public project documentation",
+  "port": 8791,
+  "health": "http",
+  "start": "node server.js",
+  "cwd": ".",
+  "log": "/tmp/alumium-wiki.log"
+}
