@@ -62,5 +62,5 @@ When the user asks to document a project:
 
 ## Service URLs
 
-- Skill Store: https://noah-service-alumium-skill-store-fwwrark8f72y.adom.cloud/proxy/8790
-- Wiki: https://noah-service-alumium-wiki-86u9jsxwmrny.adom.cloud/proxy/8791
+- Skill Store: https://noah-alumium-v25k8smsxsdi.adom.cloud/proxy/8790/
+- Wiki: https://noah-alumium-v25k8smsxsdi.adom.cloud/proxy/8791/

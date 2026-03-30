@@ -20,7 +20,7 @@ const DB_PATH = process.env.WIKI_DB_PATH || join(__dirname, 'wiki.sqlite3');
 const AUTH_TOKEN = process.env.WIKI_AUTH_TOKEN || 'alumium-wiki-dev-2025';
 const ASSETS_DIR = join(__dirname, 'assets');
 const STORE_URL = process.env.STORE_API
-  || 'https://noah-service-alumium-skill-store-fwwrark8f72y.adom.cloud/proxy/8790';
+  || 'https://noah-alumium-v25k8smsxsdi.adom.cloud/proxy/8790/';
 
 // ── Database ──────────────────────────────────────────────
 
