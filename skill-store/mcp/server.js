@@ -8,8 +8,7 @@ import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
 import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
 import { z } from 'zod';
 
-const STORE_API = process.env.STORE_API
-  || 'https://noah-service-alumium-skill-store-fwwrark8f72y.adom.cloud/proxy/8790';
+const STORE_API = process.env.STORE_API || 'http://127.0.0.1:8790';
 const STORE_TOKEN = process.env.STORE_AUTH_TOKEN || 'alumium-store-dev-2025';
 
 const server = new McpServer({ name: 'alumium-store', version: '0.1.0' });

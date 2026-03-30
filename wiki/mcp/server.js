@@ -8,8 +8,7 @@ import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
 import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
 import { z } from 'zod';
 
-const WIKI_API = process.env.WIKI_API
-  || 'https://noah-service-alumium-wiki-86u9jsxwmrny.adom.cloud/proxy/8791';
+const WIKI_API = process.env.WIKI_API || 'http://127.0.0.1:8791';
 const WIKI_TOKEN = process.env.WIKI_AUTH_TOKEN || 'alumium-wiki-dev-2025';
 
 const server = new McpServer({ name: 'alumium-wiki', version: '0.1.0' });
